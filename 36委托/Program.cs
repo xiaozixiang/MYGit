@@ -29,7 +29,7 @@ namespace _36委托
 
         public static void Test(String name, delsayhi del)
         {
-            del(name);
+            del(name); 
         }
         public static void sayhichinese(String name) {
             Console.WriteLine("吃了吗？"+name);
