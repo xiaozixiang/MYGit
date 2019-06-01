@@ -10,7 +10,7 @@ namespace _02demo
     {
         static void Main(string[] args)
         {
-            //编程实现第46天是第几周零几天
+            //编程实现第46天是第几周零几天 
             //int today = 46;
             //int week = today / 7;
             //int day = today % 7;
