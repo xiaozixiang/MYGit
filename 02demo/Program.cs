@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _02demo
 { 
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
