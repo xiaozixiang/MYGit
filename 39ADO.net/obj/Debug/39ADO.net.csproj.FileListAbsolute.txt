@@ -1,0 +1,6 @@
+F:\website\myproject\39ADO.net\bin\Debug\39ADO.net.exe.config
+F:\website\myproject\39ADO.net\bin\Debug\39ADO.net.exe
+F:\website\myproject\39ADO.net\bin\Debug\39ADO.net.pdb
+F:\website\myproject\39ADO.net\obj\Debug\39ADO.net.csprojResolveAssemblyReference.cache
+F:\website\myproject\39ADO.net\obj\Debug\39ADO.net.exe
+F:\website\myproject\39ADO.net\obj\Debug\39ADO.net.pdb

@@ -1,0 +1,9 @@
+F:\website\myproject\34单例模式\bin\Debug\34单例模式.exe.config
+F:\website\myproject\34单例模式\bin\Debug\34单例模式.exe
+F:\website\myproject\34单例模式\bin\Debug\34单例模式.pdb
+F:\website\myproject\34单例模式\obj\Debug\34单例模式.csprojResolveAssemblyReference.cache
+F:\website\myproject\34单例模式\obj\Debug\_34单例模式.Form1.resources
+F:\website\myproject\34单例模式\obj\Debug\_34单例模式.Properties.Resources.resources
+F:\website\myproject\34单例模式\obj\Debug\34单例模式.csproj.GenerateResource.Cache
+F:\website\myproject\34单例模式\obj\Debug\34单例模式.exe
+F:\website\myproject\34单例模式\obj\Debug\34单例模式.pdb

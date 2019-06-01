@@ -1,0 +1,9 @@
+F:\website\myproject\37小鸟游戏\bin\Debug\37小鸟游戏.exe.config
+F:\website\myproject\37小鸟游戏\obj\Debug\37小鸟游戏.csprojResolveAssemblyReference.cache
+F:\website\myproject\37小鸟游戏\obj\Debug\_37小鸟游戏.Properties.Resources.resources
+F:\website\myproject\37小鸟游戏\obj\Debug\37小鸟游戏.csproj.GenerateResource.Cache
+F:\website\myproject\37小鸟游戏\obj\Debug\_37小鸟游戏.Form1.resources
+F:\website\myproject\37小鸟游戏\bin\Debug\37小鸟游戏.exe
+F:\website\myproject\37小鸟游戏\bin\Debug\37小鸟游戏.pdb
+F:\website\myproject\37小鸟游戏\obj\Debug\37小鸟游戏.exe
+F:\website\myproject\37小鸟游戏\obj\Debug\37小鸟游戏.pdb

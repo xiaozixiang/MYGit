@@ -1,0 +1,6 @@
+F:\website\myproject\11飞行棋\bin\Debug\11飞行棋.exe.config
+F:\website\myproject\11飞行棋\bin\Debug\11飞行棋.exe
+F:\website\myproject\11飞行棋\bin\Debug\11飞行棋.pdb
+F:\website\myproject\11飞行棋\obj\Debug\11飞行棋.csprojResolveAssemblyReference.cache
+F:\website\myproject\11飞行棋\obj\Debug\11飞行棋.exe
+F:\website\myproject\11飞行棋\obj\Debug\11飞行棋.pdb

@@ -1,0 +1,6 @@
+F:\website\myproject\10demo\bin\Debug\10demo.exe.config
+F:\website\myproject\10demo\bin\Debug\10demo.exe
+F:\website\myproject\10demo\bin\Debug\10demo.pdb
+F:\website\myproject\10demo\obj\Debug\10demo.exe
+F:\website\myproject\10demo\obj\Debug\10demo.pdb
+F:\website\myproject\10demo\obj\Debug\10demo.csprojResolveAssemblyReference.cache

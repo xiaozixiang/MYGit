@@ -1,0 +1,9 @@
+F:\website\myproject\43EFDemo\bin\Debug\43EFDemo.exe.config
+F:\website\myproject\43EFDemo\bin\Debug\43EFDemo.exe
+F:\website\myproject\43EFDemo\bin\Debug\43EFDemo.pdb
+F:\website\myproject\43EFDemo\bin\Debug\EntityFramework.dll
+F:\website\myproject\43EFDemo\bin\Debug\EntityFramework.xml
+F:\website\myproject\43EFDemo\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\website\myproject\43EFDemo\obj\Debug\43EFDemo.csprojResolveAssemblyReference.cache
+F:\website\myproject\43EFDemo\obj\Debug\43EFDemo.exe
+F:\website\myproject\43EFDemo\obj\Debug\43EFDemo.pdb

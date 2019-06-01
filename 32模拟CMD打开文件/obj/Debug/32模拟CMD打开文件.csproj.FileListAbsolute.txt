@@ -1,0 +1,6 @@
+F:\website\myproject\32模拟CMD打开文件\bin\Debug\32模拟CMD打开文件.exe.config
+F:\website\myproject\32模拟CMD打开文件\obj\Debug\32模拟CMD打开文件.csprojResolveAssemblyReference.cache
+F:\website\myproject\32模拟CMD打开文件\bin\Debug\32模拟CMD打开文件.exe
+F:\website\myproject\32模拟CMD打开文件\bin\Debug\32模拟CMD打开文件.pdb
+F:\website\myproject\32模拟CMD打开文件\obj\Debug\32模拟CMD打开文件.exe
+F:\website\myproject\32模拟CMD打开文件\obj\Debug\32模拟CMD打开文件.pdb

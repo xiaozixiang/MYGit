@@ -1,0 +1,9 @@
+F:\website\myproject\19Timer\bin\Debug\19Timer.exe.config
+F:\website\myproject\19Timer\obj\Debug\_19Timer.Form1.resources
+F:\website\myproject\19Timer\obj\Debug\_19Timer.Properties.Resources.resources
+F:\website\myproject\19Timer\obj\Debug\19Timer.csproj.GenerateResource.Cache
+F:\website\myproject\19Timer\bin\Debug\19Timer.exe
+F:\website\myproject\19Timer\bin\Debug\19Timer.pdb
+F:\website\myproject\19Timer\obj\Debug\19Timer.exe
+F:\website\myproject\19Timer\obj\Debug\19Timer.pdb
+F:\website\myproject\19Timer\obj\Debug\19Timer.csprojResolveAssemblyReference.cache

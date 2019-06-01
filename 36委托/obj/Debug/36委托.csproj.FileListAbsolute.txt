@@ -1,0 +1,6 @@
+F:\website\myproject\36委托\bin\Debug\36委托.exe.config
+F:\website\myproject\36委托\bin\Debug\36委托.exe
+F:\website\myproject\36委托\bin\Debug\36委托.pdb
+F:\website\myproject\36委托\obj\Debug\36委托.csprojResolveAssemblyReference.cache
+F:\website\myproject\36委托\obj\Debug\36委托.exe
+F:\website\myproject\36委托\obj\Debug\36委托.pdb

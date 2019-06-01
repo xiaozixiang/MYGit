@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="exerciseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="exerciseModelStoreContainer">
+    <EntitySet Name="Brank" EntityType="exerciseModel.Store.Brank" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="City" EntityType="exerciseModel.Store.City" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Person" EntityType="exerciseModel.Store.Person" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Province" EntityType="exerciseModel.Store.Province" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Brank">
+    <Key>
+      <PropertyRef Name="PID" />
+    </Key>
+    <Property Name="PID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Moneys" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Pid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Sex" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Height" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Province">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Province" Type="nvarchar" MaxLength="50" />
+    <Property Name="Pstate" Type="int" Nullable="false" />
+  </EntityType>
+</Schema>

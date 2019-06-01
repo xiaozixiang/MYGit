@@ -1,0 +1,9 @@
+F:\website\myproject\22图片翻页\bin\Debug\22图片翻页.exe.config
+F:\website\myproject\22图片翻页\bin\Debug\22图片翻页.exe
+F:\website\myproject\22图片翻页\bin\Debug\22图片翻页.pdb
+F:\website\myproject\22图片翻页\obj\Debug\22图片翻页.csprojResolveAssemblyReference.cache
+F:\website\myproject\22图片翻页\obj\Debug\_22图片翻页.Form1.resources
+F:\website\myproject\22图片翻页\obj\Debug\_22图片翻页.Properties.Resources.resources
+F:\website\myproject\22图片翻页\obj\Debug\22图片翻页.csproj.GenerateResource.Cache
+F:\website\myproject\22图片翻页\obj\Debug\22图片翻页.exe
+F:\website\myproject\22图片翻页\obj\Debug\22图片翻页.pdb

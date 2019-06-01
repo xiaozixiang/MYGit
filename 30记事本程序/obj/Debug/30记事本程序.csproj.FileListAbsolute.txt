@@ -1,0 +1,9 @@
+F:\website\myproject\30记事本程序\bin\Debug\30记事本程序.exe.config
+F:\website\myproject\30记事本程序\bin\Debug\30记事本程序.exe
+F:\website\myproject\30记事本程序\bin\Debug\30记事本程序.pdb
+F:\website\myproject\30记事本程序\obj\Debug\30记事本程序.csprojResolveAssemblyReference.cache
+F:\website\myproject\30记事本程序\obj\Debug\_30记事本程序.Form1.resources
+F:\website\myproject\30记事本程序\obj\Debug\_30记事本程序.Properties.Resources.resources
+F:\website\myproject\30记事本程序\obj\Debug\30记事本程序.csproj.GenerateResource.Cache
+F:\website\myproject\30记事本程序\obj\Debug\30记事本程序.exe
+F:\website\myproject\30记事本程序\obj\Debug\30记事本程序.pdb

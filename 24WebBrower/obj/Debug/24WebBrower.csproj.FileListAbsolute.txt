@@ -1,0 +1,9 @@
+F:\website\myproject\24WebBrower\bin\Debug\24WebBrower.exe.config
+F:\website\myproject\24WebBrower\bin\Debug\24WebBrower.exe
+F:\website\myproject\24WebBrower\bin\Debug\24WebBrower.pdb
+F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.csprojResolveAssemblyReference.cache
+F:\website\myproject\24WebBrower\obj\Debug\_24WebBrower.Form1.resources
+F:\website\myproject\24WebBrower\obj\Debug\_24WebBrower.Properties.Resources.resources
+F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.csproj.GenerateResource.Cache
+F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.exe
+F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.pdb

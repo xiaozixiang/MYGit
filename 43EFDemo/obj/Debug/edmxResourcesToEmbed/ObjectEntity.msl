@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="exerciseModelStoreContainer" CdmEntityContainer="exerciseEntities">
+    <EntitySetMapping Name="Brank">
+      <EntityTypeMapping TypeName="exerciseModel.Brank">
+        <MappingFragment StoreEntitySet="Brank">
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="Moneys" ColumnName="Moneys" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City">
+      <EntityTypeMapping TypeName="exerciseModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="City1" ColumnName="City" />
+          <ScalarProperty Name="Pid" ColumnName="Pid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Person">
+      <EntityTypeMapping TypeName="exerciseModel.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Province">
+      <EntityTypeMapping TypeName="exerciseModel.Province">
+        <MappingFragment StoreEntitySet="Province">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Province1" ColumnName="Province" />
+          <ScalarProperty Name="Pstate" ColumnName="Pstate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,14 @@
+F:\website\myproject\33音乐播放器\bin\Debug\33音乐播放器.exe.config
+F:\website\myproject\33音乐播放器\bin\Debug\33音乐播放器.exe
+F:\website\myproject\33音乐播放器\bin\Debug\33音乐播放器.pdb
+F:\website\myproject\33音乐播放器\bin\Debug\Interop.WMPLib.dll
+F:\website\myproject\33音乐播放器\bin\Debug\AxInterop.WMPLib.dll
+F:\website\myproject\33音乐播放器\obj\Debug\33音乐播放器.csprojResolveAssemblyReference.cache
+F:\website\myproject\33音乐播放器\obj\Debug\Interop.WMPLib.dll
+F:\website\myproject\33音乐播放器\obj\Debug\AxInterop.WMPLib.dll
+F:\website\myproject\33音乐播放器\obj\Debug\33音乐播放器.csproj.ResolveComReference.cache
+F:\website\myproject\33音乐播放器\obj\Debug\_33音乐播放器.Form1.resources
+F:\website\myproject\33音乐播放器\obj\Debug\_33音乐播放器.Properties.Resources.resources
+F:\website\myproject\33音乐播放器\obj\Debug\33音乐播放器.csproj.GenerateResource.Cache
+F:\website\myproject\33音乐播放器\obj\Debug\33音乐播放器.exe
+F:\website\myproject\33音乐播放器\obj\Debug\33音乐播放器.pdb

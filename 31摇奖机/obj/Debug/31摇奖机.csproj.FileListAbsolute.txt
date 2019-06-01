@@ -1,0 +1,9 @@
+F:\website\myproject\31摇奖机\bin\Debug\31摇奖机.exe.config
+F:\website\myproject\31摇奖机\bin\Debug\31摇奖机.exe
+F:\website\myproject\31摇奖机\bin\Debug\31摇奖机.pdb
+F:\website\myproject\31摇奖机\obj\Debug\31摇奖机.csprojResolveAssemblyReference.cache
+F:\website\myproject\31摇奖机\obj\Debug\_31摇奖机.Form1.resources
+F:\website\myproject\31摇奖机\obj\Debug\_31摇奖机.Properties.Resources.resources
+F:\website\myproject\31摇奖机\obj\Debug\31摇奖机.csproj.GenerateResource.Cache
+F:\website\myproject\31摇奖机\obj\Debug\31摇奖机.exe
+F:\website\myproject\31摇奖机\obj\Debug\31摇奖机.pdb

@@ -1,0 +1,10 @@
+F:\website\myproject\21MDi窗体\bin\Debug\21MDi窗体.exe.config
+F:\website\myproject\21MDi窗体\bin\Debug\21MDi窗体.exe
+F:\website\myproject\21MDi窗体\bin\Debug\21MDi窗体.pdb
+F:\website\myproject\21MDi窗体\obj\Debug\_21MDi窗体.Form1.resources
+F:\website\myproject\21MDi窗体\obj\Debug\_21MDi窗体.Properties.Resources.resources
+F:\website\myproject\21MDi窗体\obj\Debug\21MDi窗体.csproj.GenerateResource.Cache
+F:\website\myproject\21MDi窗体\obj\Debug\21MDi窗体.exe
+F:\website\myproject\21MDi窗体\obj\Debug\21MDi窗体.pdb
+F:\website\myproject\21MDi窗体\obj\Debug\21MDi窗体.csprojResolveAssemblyReference.cache
+F:\website\myproject\21MDi窗体\obj\Debug\_21MDi窗体.Form2.resources
