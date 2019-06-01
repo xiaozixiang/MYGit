@@ -47,7 +47,7 @@ namespace ConsoleApplication1
             //{
             //    Console.Write(names[j]);
             //}
-            //数组字符串
+
             int[] nums = new int[] { 9,8,7,6,5,4,3,2,1,0};
 
             int max;
