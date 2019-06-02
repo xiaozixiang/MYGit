@@ -14,7 +14,7 @@ namespace _21MDi窗体
     {
         public Form4()
         {
-            InitializeComponent();
+            InitializeComponent();   
         }
     }
 }
