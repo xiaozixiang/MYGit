@@ -1,0 +1,11 @@
+F:\website\myproject\46算法\bin\Debug\netcoreapp2.1\46算法.deps.json
+F:\website\myproject\46算法\bin\Debug\netcoreapp2.1\46算法.runtimeconfig.json
+F:\website\myproject\46算法\bin\Debug\netcoreapp2.1\46算法.runtimeconfig.dev.json
+F:\website\myproject\46算法\bin\Debug\netcoreapp2.1\46算法.dll
+F:\website\myproject\46算法\bin\Debug\netcoreapp2.1\46算法.pdb
+F:\website\myproject\46算法\obj\Debug\netcoreapp2.1\46算法.csprojAssemblyReference.cache
+F:\website\myproject\46算法\obj\Debug\netcoreapp2.1\46算法.csproj.CoreCompileInputs.cache
+F:\website\myproject\46算法\obj\Debug\netcoreapp2.1\46算法.AssemblyInfoInputs.cache
+F:\website\myproject\46算法\obj\Debug\netcoreapp2.1\46算法.AssemblyInfo.cs
+F:\website\myproject\46算法\obj\Debug\netcoreapp2.1\46算法.dll
+F:\website\myproject\46算法\obj\Debug\netcoreapp2.1\46算法.pdb

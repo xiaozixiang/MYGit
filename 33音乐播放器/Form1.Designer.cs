@@ -50,7 +50,7 @@
             // musicplayer
             // 
             this.musicplayer.Enabled = true;
-            this.musicplayer.Location = new System.Drawing.Point(35, 12);
+            this.musicplayer.Location = new System.Drawing.Point(12, 12);
             this.musicplayer.Name = "musicplayer";
             this.musicplayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("musicplayer.OcxState")));
             this.musicplayer.Size = new System.Drawing.Size(521, 342);

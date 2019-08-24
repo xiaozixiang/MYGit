@@ -17,6 +17,11 @@ namespace _01mydemo
         static void Main(string[] args)
         {
 
+           var  price = CommonUtil.formatStr("1.2", 9);
+            var num = CommonUtil.formatStr("2", 6);
+            Console.WriteLine(price+"----------------"+num);
+            Console.ReadKey();
+
             person p;
             p.id = 0;
             p.name = "张三";

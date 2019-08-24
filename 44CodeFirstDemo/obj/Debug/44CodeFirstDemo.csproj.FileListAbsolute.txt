@@ -1,0 +1,12 @@
+F:\website\myproject\44CodeFirstDemo\bin\Debug\44CodeFirstDemo.exe.config
+F:\website\myproject\44CodeFirstDemo\bin\Debug\44CodeFirstDemo.exe
+F:\website\myproject\44CodeFirstDemo\bin\Debug\44CodeFirstDemo.pdb
+F:\website\myproject\44CodeFirstDemo\bin\Debug\EntityFramework.dll
+F:\website\myproject\44CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+F:\website\myproject\44CodeFirstDemo\bin\Debug\EntityFramework.xml
+F:\website\myproject\44CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+F:\website\myproject\44CodeFirstDemo\obj\Debug\44CodeFirstDemo.csprojAssemblyReference.cache
+F:\website\myproject\44CodeFirstDemo\obj\Debug\44CodeFirstDemo.csproj.CoreCompileInputs.cache
+F:\website\myproject\44CodeFirstDemo\obj\Debug\44CodeFirstDemo.csproj.CopyComplete
+F:\website\myproject\44CodeFirstDemo\obj\Debug\44CodeFirstDemo.exe
+F:\website\myproject\44CodeFirstDemo\obj\Debug\44CodeFirstDemo.pdb
