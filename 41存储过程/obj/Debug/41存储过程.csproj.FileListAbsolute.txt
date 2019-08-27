@@ -1,5 +1,4 @@
 F:\website\myproject\41存储过程\bin\Debug\41存储过程.exe.config
-F:\website\myproject\41存储过程\obj\Debug\41存储过程.csprojResolveAssemblyReference.cache
 F:\website\myproject\41存储过程\obj\Debug\_41存储过程.Form1.resources
 F:\website\myproject\41存储过程\obj\Debug\_41存储过程.Properties.Resources.resources
 F:\website\myproject\41存储过程\obj\Debug\41存储过程.csproj.GenerateResource.Cache
@@ -7,3 +6,5 @@ F:\website\myproject\41存储过程\bin\Debug\41存储过程.exe
 F:\website\myproject\41存储过程\bin\Debug\41存储过程.pdb
 F:\website\myproject\41存储过程\obj\Debug\41存储过程.exe
 F:\website\myproject\41存储过程\obj\Debug\41存储过程.pdb
+F:\website\myproject\41存储过程\obj\Debug\41存储过程.csprojAssemblyReference.cache
+F:\website\myproject\41存储过程\obj\Debug\41存储过程.csproj.CoreCompileInputs.cache

@@ -1,6 +1,6 @@
 F:\website\myproject\42Email发送邮件\bin\Debug\42Email发送邮件.exe.config
-F:\website\myproject\42Email发送邮件\obj\Debug\42Email发送邮件.csprojResolveAssemblyReference.cache
 F:\website\myproject\42Email发送邮件\bin\Debug\42Email发送邮件.exe
 F:\website\myproject\42Email发送邮件\bin\Debug\42Email发送邮件.pdb
 F:\website\myproject\42Email发送邮件\obj\Debug\42Email发送邮件.exe
 F:\website\myproject\42Email发送邮件\obj\Debug\42Email发送邮件.pdb
+F:\website\myproject\42Email发送邮件\obj\Debug\42Email发送邮件.csproj.CoreCompileInputs.cache

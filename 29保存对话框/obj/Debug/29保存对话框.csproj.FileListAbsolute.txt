@@ -1,9 +1,9 @@
 F:\website\myproject\29保存对话框\bin\Debug\29保存对话框.exe.config
 F:\website\myproject\29保存对话框\bin\Debug\29保存对话框.exe
 F:\website\myproject\29保存对话框\bin\Debug\29保存对话框.pdb
-F:\website\myproject\29保存对话框\obj\Debug\29保存对话框.csprojResolveAssemblyReference.cache
 F:\website\myproject\29保存对话框\obj\Debug\_29保存对话框.Form1.resources
 F:\website\myproject\29保存对话框\obj\Debug\_29保存对话框.Properties.Resources.resources
 F:\website\myproject\29保存对话框\obj\Debug\29保存对话框.csproj.GenerateResource.Cache
 F:\website\myproject\29保存对话框\obj\Debug\29保存对话框.exe
 F:\website\myproject\29保存对话框\obj\Debug\29保存对话框.pdb
+F:\website\myproject\29保存对话框\obj\Debug\29保存对话框.csproj.CoreCompileInputs.cache

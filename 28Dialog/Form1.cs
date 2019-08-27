@@ -43,5 +43,13 @@ namespace _28Dialog
            }
 
         }
+
+        //调用47WebApi生成的 http://localhost:58653/api/UserInfo/CheckUserName?_userName=xiaozixiang 的接口
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string url = "http://localhost:58653/api/UserInfo/CheckUserName";
+            string str = ApiHelper.ApiHelper.httpApi(url, "_userName", "Post");
+            textBox1.Text = str;
+        }
     }
 }

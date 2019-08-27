@@ -1,5 +1,4 @@
 F:\website\myproject\20学生登录或者老师登录\bin\Debug\20学生登录或者老师登录.exe.config
-F:\website\myproject\20学生登录或者老师登录\obj\Debug\20学生登录或者老师登录.csprojResolveAssemblyReference.cache
 F:\website\myproject\20学生登录或者老师登录\obj\Debug\_20学生登录或者老师登录.Form1.resources
 F:\website\myproject\20学生登录或者老师登录\obj\Debug\_20学生登录或者老师登录.Properties.Resources.resources
 F:\website\myproject\20学生登录或者老师登录\obj\Debug\20学生登录或者老师登录.csproj.GenerateResource.Cache
@@ -7,3 +6,5 @@ F:\website\myproject\20学生登录或者老师登录\bin\Debug\20学生登录�
 F:\website\myproject\20学生登录或者老师登录\bin\Debug\20学生登录或者老师登录.pdb
 F:\website\myproject\20学生登录或者老师登录\obj\Debug\20学生登录或者老师登录.exe
 F:\website\myproject\20学生登录或者老师登录\obj\Debug\20学生登录或者老师登录.pdb
+F:\website\myproject\20学生登录或者老师登录\obj\Debug\20学生登录或者老师登录.csprojAssemblyReference.cache
+F:\website\myproject\20学生登录或者老师登录\obj\Debug\20学生登录或者老师登录.csproj.CoreCompileInputs.cache

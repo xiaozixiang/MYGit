@@ -1,6 +1,6 @@
 F:\website\myproject\16序列化和反序列化\bin\Debug\16序列化和反序列化.exe.config
 F:\website\myproject\16序列化和反序列化\bin\Debug\16序列化和反序列化.exe
 F:\website\myproject\16序列化和反序列化\bin\Debug\16序列化和反序列化.pdb
-F:\website\myproject\16序列化和反序列化\obj\Debug\16序列化和反序列化.csprojResolveAssemblyReference.cache
 F:\website\myproject\16序列化和反序列化\obj\Debug\16序列化和反序列化.exe
 F:\website\myproject\16序列化和反序列化\obj\Debug\16序列化和反序列化.pdb
+F:\website\myproject\16序列化和反序列化\obj\Debug\16序列化和反序列化.csproj.CoreCompileInputs.cache

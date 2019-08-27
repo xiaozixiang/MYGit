@@ -1,8 +1,11 @@
 F:\website\myproject\11demo\bin\Debug\11demo.exe.config
 F:\website\myproject\11demo\bin\Debug\11demo.exe
 F:\website\myproject\11demo\bin\Debug\11demo.pdb
-F:\website\myproject\11demo\obj\Debug\11demo.csprojResolveAssemblyReference.cache
 F:\website\myproject\11demo\obj\Debug\11demo.exe
 F:\website\myproject\11demo\obj\Debug\11demo.pdb
 F:\website\myproject\11demo\bin\Debug\01mydemo.exe
 F:\website\myproject\11demo\bin\Debug\01mydemo.pdb
+F:\website\myproject\11demo\bin\Debug\01mydemo.exe.config
+F:\website\myproject\11demo\obj\Debug\11demo.csprojAssemblyReference.cache
+F:\website\myproject\11demo\obj\Debug\11demo.csproj.CoreCompileInputs.cache
+F:\website\myproject\11demo\obj\Debug\11demo.csproj.CopyComplete

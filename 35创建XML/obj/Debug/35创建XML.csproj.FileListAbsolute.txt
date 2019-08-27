@@ -1,6 +1,6 @@
 F:\website\myproject\35创建XML\bin\Debug\35创建XML.exe.config
 F:\website\myproject\35创建XML\bin\Debug\35创建XML.exe
 F:\website\myproject\35创建XML\bin\Debug\35创建XML.pdb
-F:\website\myproject\35创建XML\obj\Debug\35创建XML.csprojResolveAssemblyReference.cache
 F:\website\myproject\35创建XML\obj\Debug\35创建XML.exe
 F:\website\myproject\35创建XML\obj\Debug\35创建XML.pdb
+F:\website\myproject\35创建XML\obj\Debug\35创建XML.csproj.CoreCompileInputs.cache

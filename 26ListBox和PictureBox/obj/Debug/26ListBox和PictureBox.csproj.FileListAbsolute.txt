@@ -1,9 +1,9 @@
 F:\website\myproject\26ListBox和PictureBox\bin\Debug\26ListBox和PictureBox.exe.config
 F:\website\myproject\26ListBox和PictureBox\bin\Debug\26ListBox和PictureBox.exe
 F:\website\myproject\26ListBox和PictureBox\bin\Debug\26ListBox和PictureBox.pdb
-F:\website\myproject\26ListBox和PictureBox\obj\Debug\26ListBox和PictureBox.csprojResolveAssemblyReference.cache
 F:\website\myproject\26ListBox和PictureBox\obj\Debug\_26ListBox和PictureBox.Form1.resources
 F:\website\myproject\26ListBox和PictureBox\obj\Debug\_26ListBox和PictureBox.Properties.Resources.resources
 F:\website\myproject\26ListBox和PictureBox\obj\Debug\26ListBox和PictureBox.csproj.GenerateResource.Cache
 F:\website\myproject\26ListBox和PictureBox\obj\Debug\26ListBox和PictureBox.exe
 F:\website\myproject\26ListBox和PictureBox\obj\Debug\26ListBox和PictureBox.pdb
+F:\website\myproject\26ListBox和PictureBox\obj\Debug\26ListBox和PictureBox.csproj.CoreCompileInputs.cache

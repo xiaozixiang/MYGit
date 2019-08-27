@@ -1,9 +1,10 @@
 F:\website\myproject\18demo\bin\Debug\18demo.exe.config
 F:\website\myproject\18demo\bin\Debug\18demo.exe
 F:\website\myproject\18demo\bin\Debug\18demo.pdb
-F:\website\myproject\18demo\obj\Debug\18demo.csprojResolveAssemblyReference.cache
 F:\website\myproject\18demo\obj\Debug\_18demo.Form1.resources
 F:\website\myproject\18demo\obj\Debug\_18demo.Properties.Resources.resources
 F:\website\myproject\18demo\obj\Debug\18demo.csproj.GenerateResource.Cache
 F:\website\myproject\18demo\obj\Debug\18demo.exe
 F:\website\myproject\18demo\obj\Debug\18demo.pdb
+F:\website\myproject\18demo\obj\Debug\18demo.csprojAssemblyReference.cache
+F:\website\myproject\18demo\obj\Debug\18demo.csproj.CoreCompileInputs.cache

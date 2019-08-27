@@ -1,6 +1,6 @@
 F:\website\myproject\17银行收银系统\bin\Debug\17银行收银系统.exe.config
 F:\website\myproject\17银行收银系统\bin\Debug\17银行收银系统.exe
 F:\website\myproject\17银行收银系统\bin\Debug\17银行收银系统.pdb
-F:\website\myproject\17银行收银系统\obj\Debug\17银行收银系统.csprojResolveAssemblyReference.cache
 F:\website\myproject\17银行收银系统\obj\Debug\17银行收银系统.exe
 F:\website\myproject\17银行收银系统\obj\Debug\17银行收银系统.pdb
+F:\website\myproject\17银行收银系统\obj\Debug\17银行收银系统.csproj.CoreCompileInputs.cache

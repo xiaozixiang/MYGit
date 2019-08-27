@@ -1,6 +1,6 @@
 F:\website\myproject\13demo\bin\Debug\13demo.exe.config
 F:\website\myproject\13demo\bin\Debug\13demo.exe
 F:\website\myproject\13demo\bin\Debug\13demo.pdb
-F:\website\myproject\13demo\obj\Debug\13demo.csprojResolveAssemblyReference.cache
 F:\website\myproject\13demo\obj\Debug\13demo.exe
 F:\website\myproject\13demo\obj\Debug\13demo.pdb
+F:\website\myproject\13demo\obj\Debug\13demo.csproj.CoreCompileInputs.cache

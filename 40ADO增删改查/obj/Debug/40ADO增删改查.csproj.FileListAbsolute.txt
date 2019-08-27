@@ -1,5 +1,4 @@
 F:\website\myproject\40ADO增删改查\bin\Debug\40ADO增删改查.exe.config
-F:\website\myproject\40ADO增删改查\obj\Debug\40ADO增删改查.csprojResolveAssemblyReference.cache
 F:\website\myproject\40ADO增删改查\obj\Debug\_40ADO增删改查.Form1.resources
 F:\website\myproject\40ADO增删改查\obj\Debug\_40ADO增删改查.Properties.Resources.resources
 F:\website\myproject\40ADO增删改查\obj\Debug\40ADO增删改查.csproj.GenerateResource.Cache
@@ -7,3 +6,5 @@ F:\website\myproject\40ADO增删改查\bin\Debug\40ADO增删改查.exe
 F:\website\myproject\40ADO增删改查\bin\Debug\40ADO增删改查.pdb
 F:\website\myproject\40ADO增删改查\obj\Debug\40ADO增删改查.exe
 F:\website\myproject\40ADO增删改查\obj\Debug\40ADO增删改查.pdb
+F:\website\myproject\40ADO增删改查\obj\Debug\40ADO增删改查.csprojAssemblyReference.cache
+F:\website\myproject\40ADO增删改查\obj\Debug\40ADO增删改查.csproj.CoreCompileInputs.cache

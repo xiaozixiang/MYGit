@@ -3,4 +3,4 @@ F:\website\myproject\10demo\bin\Debug\10demo.exe
 F:\website\myproject\10demo\bin\Debug\10demo.pdb
 F:\website\myproject\10demo\obj\Debug\10demo.exe
 F:\website\myproject\10demo\obj\Debug\10demo.pdb
-F:\website\myproject\10demo\obj\Debug\10demo.csprojResolveAssemblyReference.cache
+F:\website\myproject\10demo\obj\Debug\10demo.csproj.CoreCompileInputs.cache
