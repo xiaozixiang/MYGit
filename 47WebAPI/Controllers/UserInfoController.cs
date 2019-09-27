@@ -1,4 +1,5 @@
-﻿using _47WebAPI.Tools;
+﻿using _47WebAPI.Models;
+using _47WebAPI.Tools;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ using static _47WebAPI.Tools.ApiTools;
 
 namespace _47WebAPI.Controllers
 {
+    [RoutePrefix("api/UserInfo")]
     public class UserInfoController : ApiController
     {
         private ApiTools tool = new ApiTools();
@@ -40,7 +42,7 @@ namespace _47WebAPI.Controllers
         {
         }
 
-       
+        [Route("CheckByUserName")]
         [HttpPost]
         public HttpResponseMessage CheckUserName(string _userName)
         {
@@ -59,6 +61,17 @@ namespace _47WebAPI.Controllers
         private int UserInfoGetCount(string userName)
         {
             return userName == "admin" ? 1 : 0;
+        }
+
+        [Route("getAllOrder")]
+        [HttpPost]
+        public IHttpActionResult GetAllOrder()
+        {
+            var lsOrder = new List<Order>();
+            //初始化数据
+            lsOrder.Add(new Order() { ID = "aaa", OrderNo = "111", Name = "111", Desciption = "111" });
+            lsOrder.Add(new Order() { ID = "bbb", OrderNo = "222", Name = "222", Desciption = "222" });
+            return Json<dynamic>(new { code = ResponseCode.Success, date = lsOrder, errmsg = "" });
         }
     }
 }

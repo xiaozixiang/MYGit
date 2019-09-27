@@ -16,7 +16,14 @@ namespace _01mydemo
     {
         static void Main(string[] args)
         {
+            string strbuffer = string.Empty;
+            for (int i = 0; i < 10; i++)
+            {
+                strbuffer = StringBulidDemo();
+            }
+            Console.WriteLine(strbuffer.Length); //输出 2890  按道理应该是 10*1000=10000
 
+            //
            var  price = CommonUtil.formatStr("1.2", 9);
             var num = CommonUtil.formatStr("2", 6);
             Console.WriteLine(price+"----------------"+num);
@@ -68,6 +75,28 @@ namespace _01mydemo
 
 
         }
+        /// <summary>
+        /// 测试StringBulider 和 StringBuffer 的性能  StringBuffer > StringBuilder
+        /// </summary>
+        public static string  StringBulidDemo()
+        {
+            Task<string> task = new Task<string>(()=> {
+
+                StringBuilder stringBuilder = new StringBuilder();
+                for (int i = 0; i < 1000; i++)
+                {
+                    stringBuilder.Append(i.ToString());
+                }
+                return stringBuilder.ToString();
+            });
+            task.Start();
+            task.Wait(new TimeSpan(100));
+            return task.Result;
+        }
+
+       
+
+
     }
     
 }

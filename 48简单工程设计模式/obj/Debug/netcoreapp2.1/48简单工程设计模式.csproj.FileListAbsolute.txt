@@ -1,0 +1,11 @@
+F:\website\myproject\48简单工程设计模式\bin\Debug\netcoreapp2.1\48简单工程设计模式.deps.json
+F:\website\myproject\48简单工程设计模式\bin\Debug\netcoreapp2.1\48简单工程设计模式.runtimeconfig.json
+F:\website\myproject\48简单工程设计模式\bin\Debug\netcoreapp2.1\48简单工程设计模式.runtimeconfig.dev.json
+F:\website\myproject\48简单工程设计模式\bin\Debug\netcoreapp2.1\48简单工程设计模式.dll
+F:\website\myproject\48简单工程设计模式\bin\Debug\netcoreapp2.1\48简单工程设计模式.pdb
+F:\website\myproject\48简单工程设计模式\obj\Debug\netcoreapp2.1\48简单工程设计模式.csprojAssemblyReference.cache
+F:\website\myproject\48简单工程设计模式\obj\Debug\netcoreapp2.1\48简单工程设计模式.csproj.CoreCompileInputs.cache
+F:\website\myproject\48简单工程设计模式\obj\Debug\netcoreapp2.1\48简单工程设计模式.AssemblyInfoInputs.cache
+F:\website\myproject\48简单工程设计模式\obj\Debug\netcoreapp2.1\48简单工程设计模式.AssemblyInfo.cs
+F:\website\myproject\48简单工程设计模式\obj\Debug\netcoreapp2.1\48简单工程设计模式.dll
+F:\website\myproject\48简单工程设计模式\obj\Debug\netcoreapp2.1\48简单工程设计模式.pdb

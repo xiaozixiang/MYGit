@@ -7,3 +7,4 @@ F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.csproj.GenerateResource.C
 F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.exe
 F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.pdb
 F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.csproj.CoreCompileInputs.cache
+F:\website\myproject\24WebBrower\obj\Debug\24WebBrower.csprojAssemblyReference.cache

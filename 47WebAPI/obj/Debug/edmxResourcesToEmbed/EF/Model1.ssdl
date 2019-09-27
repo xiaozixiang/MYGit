@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“exercise.dbo.Course”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="CId" />
+    </Key>
+    <Property Name="CId" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Cname" Type="nvarchar" MaxLength="50" />
+    <Property Name="TId" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="SId" />
+    </Key>
+    <Property Name="SId" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Sname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sage" Type="datetime" />
+    <Property Name="Ssex" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“exercise.dbo.Teacher”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="TId" />
+    </Key>
+    <Property Name="TId" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Tname" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="DataModelStoreContainer">
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Course" EntityType="Self.Course" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Course].[CId] AS [CId], 
+    [Course].[Cname] AS [Cname], 
+    [Course].[TId] AS [TId]
+    FROM [dbo].[Course] AS [Course]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Teacher" EntityType="Self.Teacher" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Teacher].[TId] AS [TId], 
+    [Teacher].[Tname] AS [Tname]
+    FROM [dbo].[Teacher] AS [Teacher]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

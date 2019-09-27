@@ -90,3 +90,7 @@ F:\website\myproject\47WebAPI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dl
 F:\website\myproject\47WebAPI\obj\Debug\47WebAPI.csproj.CopyComplete
 F:\website\myproject\47WebAPI\obj\Debug\47WebAPI.dll
 F:\website\myproject\47WebAPI\obj\Debug\47WebAPI.pdb
+F:\website\myproject\47WebAPI\bin\EntityFramework.dll
+F:\website\myproject\47WebAPI\bin\EntityFramework.SqlServer.dll
+F:\website\myproject\47WebAPI\bin\EntityFramework.xml
+F:\website\myproject\47WebAPI\bin\EntityFramework.SqlServer.xml

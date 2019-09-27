@@ -99,6 +99,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "46算法", "46算法\46算�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "47WebAPI", "47WebAPI\47WebAPI.csproj", "{D8C7C082-7091-42D7-95F1-BD24168F3AD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "48简单工程设计模式", "48简单工程设计模式\48简单工程设计模式.csproj", "{B27FABEC-0759-45F5-A495-EBA9E45F6B60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{D8C7C082-7091-42D7-95F1-BD24168F3AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8C7C082-7091-42D7-95F1-BD24168F3AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8C7C082-7091-42D7-95F1-BD24168F3AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27FABEC-0759-45F5-A495-EBA9E45F6B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27FABEC-0759-45F5-A495-EBA9E45F6B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27FABEC-0759-45F5-A495-EBA9E45F6B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27FABEC-0759-45F5-A495-EBA9E45F6B60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

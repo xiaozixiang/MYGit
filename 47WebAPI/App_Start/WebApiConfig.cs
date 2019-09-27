@@ -23,7 +23,7 @@ namespace _47WebAPI
             //自定义路由
             config.Routes.MapHttpRoute(
                 name:"ActionApi",
-                routeTemplate:"actionapi/{controller}/{action}/{id}",
+                routeTemplate:"api/{controller}/{action}/{id}",
                 defaults:new {id=RouteParameter.Optional}
                 );
         }

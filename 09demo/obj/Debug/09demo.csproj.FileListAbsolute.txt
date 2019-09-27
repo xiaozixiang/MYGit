@@ -4,3 +4,4 @@ F:\website\myproject\09demo\bin\Debug\09demo.pdb
 F:\website\myproject\09demo\obj\Debug\09demo.exe
 F:\website\myproject\09demo\obj\Debug\09demo.pdb
 F:\website\myproject\09demo\obj\Debug\09demo.csproj.CoreCompileInputs.cache
+F:\website\myproject\09demo\obj\Debug\09demo.csprojAssemblyReference.cache

@@ -45,15 +45,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
@@ -156,13 +166,67 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LogisticsController.cs" />
+    <Compile Include="Controllers\MobileController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Controllers\UserInfoController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\WeatherController.cs" />
+    <Compile Include="ConvertHelper\BoolConvert.cs" />
+    <Compile Include="ConvertHelper\DataTimeConvert.cs" />
+    <Compile Include="EF\Course.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EF\Student.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\Teacher.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Area.cs" />
+    <Compile Include="Models\Logistics.cs" />
+    <Compile Include="Models\Mobile.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\WeatherCode.cs" />
+    <Compile Include="Models\WeatherDetail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Tools\ApiTools.cs" />
+    <Compile Include="Tools\ComonTool.cs" />
+    <Compile Include="Tools\WebServiceHelper.cs" />
+    <Compile Include="Tools\XMLHelper.cs" />
+    <Compile Include="Web References\WebReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -170,8 +234,125 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="EF\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="EF\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Image\weather\0.gif" />
+    <Content Include="Image\weather\1.gif" />
+    <Content Include="Image\weather\10.gif" />
+    <Content Include="Image\weather\11.gif" />
+    <Content Include="Image\weather\12.gif" />
+    <Content Include="Image\weather\13.gif" />
+    <Content Include="Image\weather\14.gif" />
+    <Content Include="Image\weather\15.gif" />
+    <Content Include="Image\weather\16.gif" />
+    <Content Include="Image\weather\17.gif" />
+    <Content Include="Image\weather\18.gif" />
+    <Content Include="Image\weather\19.gif" />
+    <Content Include="Image\weather\2.gif" />
+    <Content Include="Image\weather\20.gif" />
+    <Content Include="Image\weather\21.gif" />
+    <Content Include="Image\weather\22.gif" />
+    <Content Include="Image\weather\23.gif" />
+    <Content Include="Image\weather\24.gif" />
+    <Content Include="Image\weather\25.gif" />
+    <Content Include="Image\weather\26.gif" />
+    <Content Include="Image\weather\27.gif" />
+    <Content Include="Image\weather\28.gif" />
+    <Content Include="Image\weather\29.gif" />
+    <Content Include="Image\weather\3.gif" />
+    <Content Include="Image\weather\30.gif" />
+    <Content Include="Image\weather\31.gif" />
+    <Content Include="Image\weather\4.gif" />
+    <Content Include="Image\weather\5.gif" />
+    <Content Include="Image\weather\6.gif" />
+    <Content Include="Image\weather\7.gif" />
+    <Content Include="Image\weather\8.gif" />
+    <Content Include="Image\weather\9.gif" />
+    <Content Include="Image\weather\a_0.gif" />
+    <Content Include="Image\weather\a_1.gif" />
+    <Content Include="Image\weather\a_10.gif" />
+    <Content Include="Image\weather\a_11.gif" />
+    <Content Include="Image\weather\a_12.gif" />
+    <Content Include="Image\weather\a_13.gif" />
+    <Content Include="Image\weather\a_14.gif" />
+    <Content Include="Image\weather\a_15.gif" />
+    <Content Include="Image\weather\a_16.gif" />
+    <Content Include="Image\weather\a_17.gif" />
+    <Content Include="Image\weather\a_18.gif" />
+    <Content Include="Image\weather\a_19.gif" />
+    <Content Include="Image\weather\a_2.gif" />
+    <Content Include="Image\weather\a_20.gif" />
+    <Content Include="Image\weather\a_21.gif" />
+    <Content Include="Image\weather\a_22.gif" />
+    <Content Include="Image\weather\a_23.gif" />
+    <Content Include="Image\weather\a_24.gif" />
+    <Content Include="Image\weather\a_25.gif" />
+    <Content Include="Image\weather\a_26.gif" />
+    <Content Include="Image\weather\a_27.gif" />
+    <Content Include="Image\weather\a_28.gif" />
+    <Content Include="Image\weather\a_29.gif" />
+    <Content Include="Image\weather\a_3.gif" />
+    <Content Include="Image\weather\a_30.gif" />
+    <Content Include="Image\weather\a_31.gif" />
+    <Content Include="Image\weather\a_4.gif" />
+    <Content Include="Image\weather\a_5.gif" />
+    <Content Include="Image\weather\a_6.gif" />
+    <Content Include="Image\weather\a_7.gif" />
+    <Content Include="Image\weather\a_8.gif" />
+    <Content Include="Image\weather\a_9.gif" />
+    <Content Include="Image\weather\a_nothing.gif" />
+    <Content Include="Image\weather\b_0.gif" />
+    <Content Include="Image\weather\b_1.gif" />
+    <Content Include="Image\weather\b_10.gif" />
+    <Content Include="Image\weather\b_11.gif" />
+    <Content Include="Image\weather\b_12.gif" />
+    <Content Include="Image\weather\b_13.gif" />
+    <Content Include="Image\weather\b_14.gif" />
+    <Content Include="Image\weather\b_15.gif" />
+    <Content Include="Image\weather\b_16.gif" />
+    <Content Include="Image\weather\b_17.gif" />
+    <Content Include="Image\weather\b_18.gif" />
+    <Content Include="Image\weather\b_19.gif" />
+    <Content Include="Image\weather\b_2.gif" />
+    <Content Include="Image\weather\b_20.gif" />
+    <Content Include="Image\weather\b_21.gif" />
+    <Content Include="Image\weather\b_22.gif" />
+    <Content Include="Image\weather\b_23.gif" />
+    <Content Include="Image\weather\b_24.gif" />
+    <Content Include="Image\weather\b_25.gif" />
+    <Content Include="Image\weather\b_26.gif" />
+    <Content Include="Image\weather\b_27.gif" />
+    <Content Include="Image\weather\b_28.gif" />
+    <Content Include="Image\weather\b_29.gif" />
+    <Content Include="Image\weather\b_3.gif" />
+    <Content Include="Image\weather\b_30.gif" />
+    <Content Include="Image\weather\b_31.gif" />
+    <Content Include="Image\weather\b_4.gif" />
+    <Content Include="Image\weather\b_5.gif" />
+    <Content Include="Image\weather\b_6.gif" />
+    <Content Include="Image\weather\b_7.gif" />
+    <Content Include="Image\weather\b_8.gif" />
+    <Content Include="Image\weather\b_9.gif" />
+    <Content Include="Image\weather\b_nothing.gif" />
+    <Content Include="Image\weather\nothing.gif" />
+    <Content Include="Image\weather\Read me.txt" />
+    <Content Include="Image\weather\r_b.gif" />
+    <Content Include="Image\weather\r_t1.gif" />
+    <Content Include="Image\weather\tem1.gif" />
+    <Content Include="Image\weather\tem2.gif" />
+    <Content Include="Image\weather\tem3.gif" />
+    <Content Include="Image\weather\tem4.gif" />
+    <Content Include="Image\weather\tem5.gif" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -193,12 +374,35 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <EntityDeploy Include="EF\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="EF\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <None Include="Web References\WebReference1\MobileCodeWS.disco" />
+    <Content Include="Web References\WebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\WebReference1\MobileCodeWS.wsdl" />
+    <Content Include="Web References\WebReference1\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\WebReference\WeatherWebService.disco" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -213,10 +417,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Web References\WebReference\WeatherWebService.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -249,6 +453,39 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference1\</RelPath>
+      <UpdateFromURL>http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>_47WebAPI_WebReference1_MobileCodeWS</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.webxml.com.cn/WebServices/WeatherWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference\</RelPath>
+      <UpdateFromURL>http://www.webxml.com.cn/WebServices/WeatherWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>_47WebAPI_WebReference_WeatherWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
