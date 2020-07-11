@@ -1,0 +1,2 @@
+2020-07-11 16:28:47 [Thread]:1 [Recorder]:demo8.exe [Msg]:init loghandle:demo8.exe [Category]:start
+2020-07-11 16:29:16 [Thread]:1 [Recorder]:demo8.exe [Msg]:错误消息记录测试 [Category]:1[Level]:Error[User]:xiaozixiang[Ip]:172.20.10.5

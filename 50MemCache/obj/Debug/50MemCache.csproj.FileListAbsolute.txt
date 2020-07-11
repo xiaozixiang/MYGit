@@ -1,0 +1,12 @@
+F:\website\myproject\50MemCache\bin\Debug\50MemCache.exe.config
+F:\website\myproject\50MemCache\bin\Debug\50MemCache.exe
+F:\website\myproject\50MemCache\bin\Debug\50MemCache.pdb
+F:\website\myproject\50MemCache\bin\Debug\Commons.dll
+F:\website\myproject\50MemCache\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\website\myproject\50MemCache\bin\Debug\log4net.dll
+F:\website\myproject\50MemCache\bin\Debug\Memcached.ClientLibrary.dll
+F:\website\myproject\50MemCache\obj\Debug\50MemCache.csprojAssemblyReference.cache
+F:\website\myproject\50MemCache\obj\Debug\50MemCache.csproj.CoreCompileInputs.cache
+F:\website\myproject\50MemCache\obj\Debug\50MemCache.csproj.CopyComplete
+F:\website\myproject\50MemCache\obj\Debug\50MemCache.exe
+F:\website\myproject\50MemCache\obj\Debug\50MemCache.pdb

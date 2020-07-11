@@ -1,0 +1,16 @@
+F:\website\myproject\51RedisDemo\bin\Debug\51RedisDemo.exe.config
+F:\website\myproject\51RedisDemo\bin\Debug\51RedisDemo.exe
+F:\website\myproject\51RedisDemo\bin\Debug\51RedisDemo.pdb
+F:\website\myproject\51RedisDemo\bin\Debug\ServiceStack.Common.dll
+F:\website\myproject\51RedisDemo\bin\Debug\ServiceStack.Interfaces.dll
+F:\website\myproject\51RedisDemo\bin\Debug\ServiceStack.Redis.dll
+F:\website\myproject\51RedisDemo\bin\Debug\ServiceStack.Text.dll
+F:\website\myproject\51RedisDemo\bin\Debug\ServiceStack.Common.xml
+F:\website\myproject\51RedisDemo\bin\Debug\ServiceStack.Interfaces.xml
+F:\website\myproject\51RedisDemo\bin\Debug\ServiceStack.Redis.xml
+F:\website\myproject\51RedisDemo\bin\Debug\ServiceStack.Text.xml
+F:\website\myproject\51RedisDemo\obj\Debug\51RedisDemo.csprojAssemblyReference.cache
+F:\website\myproject\51RedisDemo\obj\Debug\51RedisDemo.csproj.CoreCompileInputs.cache
+F:\website\myproject\51RedisDemo\obj\Debug\51RedisDemo.csproj.CopyComplete
+F:\website\myproject\51RedisDemo\obj\Debug\51RedisDemo.exe
+F:\website\myproject\51RedisDemo\obj\Debug\51RedisDemo.pdb

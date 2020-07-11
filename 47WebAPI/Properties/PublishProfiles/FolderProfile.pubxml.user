@@ -73,13 +73,13 @@
       <publishTime>08/27/2019 21:53:03</publishTime>
     </File>
     <File Include="bin/47WebAPI.dll">
-      <publishTime>09/10/2019 21:20:52</publishTime>
+      <publishTime>09/27/2019 20:28:01</publishTime>
     </File>
     <File Include="bin/47WebAPI.pdb">
-      <publishTime>09/10/2019 21:20:52</publishTime>
+      <publishTime>09/27/2019 20:28:01</publishTime>
     </File>
     <File Include="bin/47WebAPI.XmlSerializers.dll">
-      <publishTime>09/10/2019 21:20:53</publishTime>
+      <publishTime>09/27/2019 20:28:02</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>09/10/2013 16:29:20</publishTime>
@@ -720,8 +720,11 @@
     <File Include="Web References/WebReference/Reference.map">
       <publishTime>09/10/2019 12:41:36</publishTime>
     </File>
+    <File Include="Web References/WebReference1/Reference.map">
+      <publishTime>09/10/2019 21:38:09</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>09/10/2019 21:20:54</publishTime>
+      <publishTime>09/27/2019 20:28:03</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -5,3 +5,6 @@ F:\website\myproject\08demo\obj\Debug\08demo.exe
 F:\website\myproject\08demo\obj\Debug\08demo.pdb
 F:\website\myproject\08demo\obj\Debug\08demo.csprojAssemblyReference.cache
 F:\website\myproject\08demo\obj\Debug\08demo.csproj.CoreCompileInputs.cache
+F:\website\myproject\08demo\bin\Debug\LogCommer.dll
+F:\website\myproject\08demo\bin\Debug\LogCommer.pdb
+F:\website\myproject\08demo\obj\Debug\08demo.csproj.CopyComplete

@@ -1,0 +1,6 @@
+F:\website\myproject\LogCommer\bin\Debug\LogCommer.dll
+F:\website\myproject\LogCommer\bin\Debug\LogCommer.pdb
+F:\website\myproject\LogCommer\obj\Debug\LogCommer.csprojAssemblyReference.cache
+F:\website\myproject\LogCommer\obj\Debug\LogCommer.csproj.CoreCompileInputs.cache
+F:\website\myproject\LogCommer\obj\Debug\LogCommer.dll
+F:\website\myproject\LogCommer\obj\Debug\LogCommer.pdb

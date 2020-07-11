@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LogCommer;
+using System;
+using System.IO;
+using System.Net;
 
 namespace _08demo
 {
@@ -26,7 +25,20 @@ namespace _08demo
            bool b= int.TryParse("123abc", out number);
            Console.WriteLine(b);
            Console.WriteLine(number);
+
+            //其中的asynThreadCount参数默认是1，代表后台独立线程独立处理日志;我这边设置为0，代表同步处理日志。
+            string AddressIP = string.Empty;
+            foreach (IPAddress _IPAddress in Dns.GetHostEntry(Dns.GetHostName()).AddressList)
+            {
+                if (_IPAddress.AddressFamily.ToString() == "InterNetwork")
+                {
+                    AddressIP = _IPAddress.ToString();
+                }
+            }
+            LogHelper logHelper = new LogHelper("demo8.exe", Path.Combine(Environment.CurrentDirectory, "Logs"), null, 0, "Log");
+            logHelper.Log("错误消息记录测试","1", EnLogLevel.Error, "xiaozixiang", AddressIP);
            Console.ReadKey();
+           
         }
     }
 }
